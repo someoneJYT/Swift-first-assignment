@@ -1,9 +1,6 @@
 .DS_Store
-.DS_Store
-memorize game/memorize game.xcodeproj/project.pbxproj
-memorize game/memorize game.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-memorize game/memorize game/Assets.xcassets/AccentColor.colorset/Contents.json
-memorize game/memorize game.xcodeproj/project.xcworkspace/xcuserdata/jenyutseng.xcuserdatad/UserInterfaceState.xcuserstate
-memorize game/memorize game.xcodeproj/xcuserdata/jenyutseng.xcuserdatad/xcschemes/xcschememanagement.plist
-memorize game/memorize game/Assets.xcassets/AppIcon.appiconset/Contents.json
-memorize game/memorize game/Assets.xcassets/Contents.json
+# 忽略所有使用者的個人設定 (含有 xcuserdata 的路徑)
+**/xcuserdata/
+# 忽略編譯暫存檔
+DerivedData/
+build/
